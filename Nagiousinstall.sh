@@ -19,7 +19,7 @@ sudo a2enmod rewrite
 sudo a2enmod cgi
 sudo ufw allow Apache
 sudo ufw reload
-sudo htpasswd -cb /usr/local/nagios/etc/htpasswd.users nagiosadmin Sharonsam2
+sudo htpasswd -cb /usr/local/nagios/etc/htpasswd.users nagiosadmin qwerty123#
 sudo systemctl restart apache2.service
 sudo systemctl start nagios.service
 sudo apt-get install -y autoconf gcc libc6 libmcrypt-dev make libssl-dev wget bc gawk dc build-essential snmp libnet-snmp-perl gettext
